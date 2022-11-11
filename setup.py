@@ -179,15 +179,11 @@ def do_setup(package_data):
         install_requires=[
             "cffi",
             "cython",
-            "hydra-core>=1.0.7,<1.1",
-            "omegaconf<2.1",
-            "numpy>=1.21.3",
+            "numpy",
             "regex",
             "sacrebleu>=1.4.12",
-            "torch>=1.10",
+            "torch",
             "tqdm",
-            "bitarray",
-            "torchaudio>=0.8.0",
         ],
         extras_require={
             "dev": ["flake8", "pytest", "black==22.3.0"],
