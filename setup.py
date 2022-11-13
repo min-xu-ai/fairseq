@@ -177,6 +177,7 @@ def do_setup(package_data):
         long_description=readme,
         long_description_content_type="text/markdown",
         install_requires=[
+            "bitarray",
             "cffi",
             "cython",
             "numpy",
